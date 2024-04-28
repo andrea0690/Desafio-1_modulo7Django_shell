@@ -1,15 +1,19 @@
-
-# Project Title
-
 # DesafioADL - Proyecto Django
 
 Este proyecto tiene como objetivo proporcionar instrucciones paso a paso para crear y gestionar un proyecto en Django. A continuación se describen las tareas y sub-tareas involucradas en el proceso de creación y configuración de un proyecto Django.
 
+Desafio Dia 2 - Modulo 7 shell
+
 ## Lista de Instrucciones
 
 ### Importación Inicial
-Para comenzar, importa todas las funciones del archivo `services.py`:
+Para comenzar la shell de django, ejecuta el siguiente comando:
+```
+python3 manage.py shell
+```
 
+### Importación Inicial
+Para comenzar, importa todas las funciones del archivo `services.py`:
 ```python
 from desafioadl.services import *
 ```
@@ -41,4 +45,10 @@ imprimir_en_pantalla()
     [6] Crear modelos y realizar migraciones
 
     ```
+
+### Salida de la consola
+Para salir de la consola de django ejecuta:
+```python
+exit()
+```
 
