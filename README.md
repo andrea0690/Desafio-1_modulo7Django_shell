@@ -44,7 +44,7 @@ imprimir_en_pantalla()
     [5] Instalar crear proyecto y app
     [6] Crear modelos y realizar migraciones
 
-    ```
+```
 
 ### Salida de la consola
 Para salir de la consola de django ejecuta:
